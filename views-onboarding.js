@@ -5,7 +5,7 @@
 VIEWS['onb/bienvenida'] = function(){
   return `
     <div class="onb-wrap">
-      <div class="onb-logo">${icon('i-logo-alba')}</div>
+      <img src="logo-alba.png" alt="ALBA+" class="onb-logo-img">
       <div class="onb-titulo">ALBA+</div>
       <div class="onb-sub">Cuidando tu salud, paso a paso. Una cuenta para quien cuida y otra para quien es cuidado, siempre conectadas.</div>
       <div class="rol-opciones">
