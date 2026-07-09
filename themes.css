@@ -1,0 +1,69 @@
+/* ============================================================
+   CUIDO+ — TOKENS DE TEMA
+   Cinco paletas con nombre propio + un modo de alto contraste
+   que se superpone a cualquiera de ellas. Todo controlado por
+   atributos en <html>: data-theme / data-contraste / data-letra
+   ============================================================ */
+
+:root{
+  /* Quetzal — jade y marigold, tono por defecto */
+  --q-brand:#0E6E55;
+  --q-brand-dark:#0A4F3E;
+  --q-accent:#E2932F;
+  --q-bg:#F6F8F4;
+  --q-surface:#FFFFFF;
+  --q-surface-2:#EDF2EA;
+  --q-text:#1E2A22;
+  --q-muted:#5B6B60;
+  --q-border:#D8E1D4;
+}
+
+html[data-theme="quetzal"]{
+  --brand:#0E6E55; --brand-dark:#0A4F3E; --accent:#E2932F; --accent-dark:#B9741E;
+  --bg:#F6F8F4; --surface:#FFFFFF; --surface-2:#EDF2EA; --surface-3:#E2EBDD;
+  --text:#1E2A22; --muted:#5B6B60; --border:#D8E1D4;
+  --danger:#C0392B; --success:#0E6E55; --info:#2E6F8E; --warn:#B9741E;
+  --on-brand:#FFFFFF; --on-accent:#211404;
+}
+html[data-theme="cielo"]{
+  --brand:#1B5E8A; --brand-dark:#124467; --accent:#F0A93A; --accent-dark:#C4841F;
+  --bg:#F3F8FB; --surface:#FFFFFF; --surface-2:#E7F1F7; --surface-3:#DAEAF3;
+  --text:#152836; --muted:#54697A; --border:#CFE1EB;
+  --danger:#C0392B; --success:#1E8A5F; --info:#1B5E8A; --warn:#C4841F;
+  --on-brand:#FFFFFF; --on-accent:#211404;
+}
+html[data-theme="atardecer"]{
+  --brand:#C1502E; --brand-dark:#8F3A20; --accent:#E8B94E; --accent-dark:#B4881F;
+  --bg:#FBF4EC; --surface:#FFFFFF; --surface-2:#F5E7D8; --surface-3:#EFDBC4;
+  --text:#2E1F16; --muted:#75604F; --border:#E7D3BC;
+  --danger:#B23A2E; --success:#3F7D4F; --info:#2E6F8E; --warn:#B4881F;
+  --on-brand:#FFFFFF; --on-accent:#241705;
+}
+html[data-theme="bosque"]{
+  --brand:#2F6B3A; --brand-dark:#204B28; --accent:#B5651D; --accent-dark:#8A4C15;
+  --bg:#F5F7F0; --surface:#FFFFFF; --surface-2:#E9EEE0; --surface-3:#DCE5CC;
+  --text:#20281B; --muted:#5A6350; --border:#D3DCC3;
+  --danger:#B23A2E; --success:#2F6B3A; --info:#2E6F8E; --warn:#8A4C15;
+  --on-brand:#FFFFFF; --on-accent:#1E1102;
+}
+html[data-theme="noche"]{
+  --brand:#4FA98A; --brand-dark:#3C8069; --accent:#F0B84F; --accent-dark:#C79333;
+  --bg:#171C1A; --surface:#212722; --surface-2:#283029; --surface-3:#333D33;
+  --text:#F1F5F0; --muted:#A9B5AC; --border:#3A443B;
+  --danger:#E5786A; --success:#4FA98A; --info:#6CB4DE; --warn:#F0B84F;
+  --on-brand:#0D1210; --on-accent:#1E1400;
+}
+
+/* Alto contraste: se superpone encima de cualquier tema elegido */
+html[data-contraste="alto"]{
+  --brand:#FFD400; --brand-dark:#E5BE00; --accent:#FFD400; --accent-dark:#E5BE00;
+  --bg:#000000; --surface:#0A0A0A; --surface-2:#141414; --surface-3:#1E1E1E;
+  --text:#FFFFFF; --muted:#DDDDDD; --border:#FFFFFF;
+  --danger:#FF6B5E; --success:#7CFFB2; --info:#7FD4FF; --warn:#FFD400;
+  --on-brand:#000000; --on-accent:#000000;
+}
+
+/* Escala de tamaño de letra, pensada para vista de UA */
+html[data-letra="normal"]{ --letra-escala:1; }
+html[data-letra="grande"]{ --letra-escala:1.16; }
+html[data-letra="muy-grande"]{ --letra-escala:1.34; }
