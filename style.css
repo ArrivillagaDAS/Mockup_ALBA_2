@@ -191,7 +191,7 @@ h1,h2,h3{line-height:1.25;}
 
 /* ---------- Onboarding ---------- */
 .onb-wrap{flex:1;display:flex;flex-direction:column;justify-content:center;text-align:center;}
-.onb-logo-img{width:96px;height:96px;border-radius:22px;display:block;margin:0 auto 18px;object-fit:contain;box-shadow:0 10px 24px -8px rgba(0,0,0,.35);}
+.onb-logo-img{width:150px;height:auto;border-radius:22px;display:block;margin:0 auto 18px;object-fit:contain;box-shadow:0 10px 24px -8px rgba(0,0,0,.35);}
 .onb-titulo{font-size:1.6rem;font-weight:800;margin-bottom:8px;}
 .onb-sub{color:var(--muted);font-size:.95rem;margin-bottom:30px;line-height:1.5;}
 .rol-opciones{display:flex;flex-direction:column;gap:14px;text-align:left;}
