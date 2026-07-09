@@ -1,5 +1,5 @@
 /* ============================================================
-   CUIDO+ — HOJA DE ESTILOS PRINCIPAL
+   ALBA+ — HOJA DE ESTILOS PRINCIPAL
    ============================================================ */
 *{box-sizing:border-box;margin:0;padding:0;}
 html{-webkit-text-size-adjust:100%;}
@@ -191,7 +191,8 @@ h1,h2,h3{line-height:1.25;}
 
 /* ---------- Onboarding ---------- */
 .onb-wrap{flex:1;display:flex;flex-direction:column;justify-content:center;text-align:center;}
-.onb-logo{width:74px;height:74px;border-radius:22px;background:var(--brand);color:var(--on-brand);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-weight:800;font-size:1.7rem;}
+.onb-logo{width:74px;height:74px;border-radius:22px;background:var(--brand);color:var(--accent);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-weight:800;font-size:1.7rem;}
+.onb-logo .icon{width:2.3em;height:2.3em;stroke-width:1.6;}
 .onb-titulo{font-size:1.6rem;font-weight:800;margin-bottom:8px;}
 .onb-sub{color:var(--muted);font-size:.95rem;margin-bottom:30px;line-height:1.5;}
 .rol-opciones{display:flex;flex-direction:column;gap:14px;text-align:left;}

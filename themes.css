@@ -25,6 +25,13 @@ html[data-theme="quetzal"]{
   --danger:#C0392B; --success:#0E6E55; --info:#2E6F8E; --warn:#B9741E;
   --on-brand:#FFFFFF; --on-accent:#211404;
 }
+html[data-theme="alba"]{
+  --brand:#24395A; --brand-dark:#141414; --accent:#E9B968; --accent-dark:#C79333;
+  --bg:#FDEAC2; --surface:#FFFFFF; --surface-2:#FBF2DC; --surface-3:#F6E4BD;
+  --text:#24395A; --muted:#5B6B85; --border:#E9D9B0;
+  --danger:#C0392B; --success:#24395A; --info:#24395A; --warn:#C79333;
+  --on-brand:#FDEAC2; --on-accent:#141414;
+}
 html[data-theme="cielo"]{
   --brand:#1B5E8A; --brand-dark:#124467; --accent:#F0A93A; --accent-dark:#C4841F;
   --bg:#F3F8FB; --surface:#FFFFFF; --surface-2:#E7F1F7; --surface-3:#DAEAF3;

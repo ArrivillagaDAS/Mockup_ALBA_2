@@ -5,9 +5,9 @@
 VIEWS['onb/bienvenida'] = function(){
   return `
     <div class="onb-wrap">
-      <div class="onb-logo">C+</div>
-      <div class="onb-titulo">Cuido+</div>
-      <div class="onb-sub">Una cuenta para quien cuida y otra para quien es cuidado, siempre conectadas.</div>
+      <div class="onb-logo">${icon('i-logo-alba')}</div>
+      <div class="onb-titulo">ALBA+</div>
+      <div class="onb-sub">Cuidando tu salud, paso a paso. Una cuenta para quien cuida y otra para quien es cuidado, siempre conectadas.</div>
       <div class="rol-opciones">
         <button class="rol-card" onclick="ir('#onb/uc-crear')">
           <div class="icono-wrap">${icon('i-users')}</div>
